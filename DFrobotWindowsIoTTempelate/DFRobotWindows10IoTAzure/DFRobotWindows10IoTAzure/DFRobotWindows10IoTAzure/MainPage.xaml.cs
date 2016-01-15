@@ -46,7 +46,7 @@ namespace DFRobotWindows10IoTAzure
             ctdHelper1 = new ConnectTheDotsHelper(serviceBusNamespace: "exampleiot-ns",
                 eventHubName: "ehdevices",
                 keyName: "D1",
-                key: "+DsE+SgW3uXCYWEr3amtvf3aPdVXiQHeomwRGYkv9p8=",
+                key: "××××××××××××××××××××××××××××",//please input your key number!!
                 displayName: "Temperature",
                 organization: "DFRobot",
                 location: "Shanghai",
