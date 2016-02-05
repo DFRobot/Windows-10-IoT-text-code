@@ -1,0 +1,5 @@
+﻿1>------ Build started: Project: windowsIoTtextcode, Configuration: Debug ARM ------
+1>  windowsIoTtextcode -> C:\Users\dfrobot\Documents\GitHub\Windows-10-IoT-text-code\DFrobotWindowsIoTTempelate\DFRobotWindows10IoTAzure\DFRobotWindows10IoTAzure\DFRobotWindows10IoTAzure\bin\ARM\Debug\App1.exe
+1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets(1778,5): warning APPX0104: Certificate file 'App1_TemporaryKey.pfx' not found.
+1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets(1778,5): warning APPX0107: The certificate specified is not valid for signing. For more information about valid certificates, see http://go.microsoft.com/fwlink/?LinkID=241478.
+========== Build: 1 succeeded, 0 failed, 3 up-to-date, 0 skipped ==========

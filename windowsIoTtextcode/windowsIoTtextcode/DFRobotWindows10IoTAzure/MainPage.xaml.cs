@@ -18,7 +18,7 @@ using System.Diagnostics;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace DFRobotWindows10IoTAzure
+namespace windowsIoTtextcode
 {
 
     public sealed partial class MainPage : Page
@@ -68,21 +68,17 @@ namespace DFRobotWindows10IoTAzure
         private void setup()
         {
             Debug.WriteLine("Setup");
-            arduino.pinMode("A1", PinMode.ANALOG);
-
-
+            arduino.pinMode("A1",PinMode.ANALOG);
             loopTimer = new DispatcherTimer();
             loopTimer.Interval = TimeSpan.FromMilliseconds(500);
-            loopTimer.Tick += blink;
+            loopTimer.Tick += textReadTem;
             loopTimer.Start();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        { }
 
-        }
-
-        private void blink(object sender, object e)
+        private void textReadTem(object sender, object e)
         {
             Temperature = arduino.analogRead("A1");
 
@@ -91,8 +87,6 @@ namespace DFRobotWindows10IoTAzure
             ctdHelper1.SendSensorData(sensor1);
 
         }
-
-
     }
 }
 

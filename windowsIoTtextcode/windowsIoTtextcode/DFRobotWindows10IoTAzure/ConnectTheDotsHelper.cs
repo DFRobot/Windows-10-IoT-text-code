@@ -9,7 +9,7 @@ using Windows.Security.Cryptography;
 using Windows.Security.Cryptography.Core;
 using Windows.Web.Http;
 
-namespace DFRobotWindows10IoTAzure
+namespace windowsIoTtextcode
 {
     public class ConnectTheDotsHelper
     {

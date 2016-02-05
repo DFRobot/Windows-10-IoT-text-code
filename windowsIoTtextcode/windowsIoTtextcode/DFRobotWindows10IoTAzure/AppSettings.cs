@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
 
-namespace DFRobotWindows10IoTAzure
+namespace windowsIoTtextcode
 {
     /// <summary>
     ///  Class for managing app settings

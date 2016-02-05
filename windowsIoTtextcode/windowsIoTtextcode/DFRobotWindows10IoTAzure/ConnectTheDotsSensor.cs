@@ -6,7 +6,7 @@ using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DFRobotWindows10IoTAzure
+namespace windowsIoTtextcode
 {
     /// <summary>
     /// Class to manage sensor data and attributes 
