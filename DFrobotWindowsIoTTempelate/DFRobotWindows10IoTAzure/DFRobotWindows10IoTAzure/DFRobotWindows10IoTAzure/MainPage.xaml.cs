@@ -43,9 +43,9 @@ namespace DFRobotWindows10IoTAzure
             arduino.DeviceReady += onDeviceReady;
             usb.begin(57600, SerialConfig.SERIAL_8N1);
 
-            ctdHelper1 = new ConnectTheDotsHelper(serviceBusNamespace: "exampleiot-ns",
+            ctdHelper1 = new ConnectTheDotsHelper(serviceBusNamespace: "exampleiot-ns",//please change this service bus name for you used
                 eventHubName: "ehdevices",
-                keyName: "D1",
+                keyName: "D1",//change the date channel
                 key: "××××××××××××××××××××××××××××",//please input your key number!!
                 displayName: "Temperature",
                 organization: "DFRobot",
@@ -68,7 +68,7 @@ namespace DFRobotWindows10IoTAzure
         private void setup()
         {
             Debug.WriteLine("Setup");
-            arduino.pinMode("A1", PinMode.INPUT);
+            arduino.pinMode("A1", PinMode.ANALOG);
 
 
             loopTimer = new DispatcherTimer();
